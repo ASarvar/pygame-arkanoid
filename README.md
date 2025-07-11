@@ -12,6 +12,12 @@
     1. Create new VENV: `python3 -m venv env`
     1. Activate your VENV: `sh ./env/bin/activate`
     1. Install deps: `pip3 install -r requirements.txt`
+1a. Windows: Run `install.bat` OR do the Manual Install:
+   1. Create new VENV: `python -m venv env`
+   2. Activate your VENV:
+      - Command Prompt: `.env\Scripts\activate`
+      - PowerShell: `.env\Scripts\Activate.ps1`
+   3. Install deps: `pip install -r requirements.txt`
 1. Go to the working directory: `cd work`
 1. Run the app: `python3 main.py`
 
